@@ -1,6 +1,6 @@
 var filesystem = require('fs');
 
-var data = filesystem.readFileSycn(process.argv[2]);
+var data = filesystem.readFileSync(process.argv[2]);
 
 var newLines = data.toString().split('\n');
 
